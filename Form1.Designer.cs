@@ -90,7 +90,7 @@
             this.btn9.TabIndex = 5;
             this.btn9.Tag = "?";
             this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn8
             // 
@@ -103,7 +103,7 @@
             this.btn8.TabIndex = 5;
             this.btn8.Tag = "?";
             this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn7
             // 
@@ -116,7 +116,7 @@
             this.btn7.TabIndex = 5;
             this.btn7.Tag = "?";
             this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn4
             // 
@@ -129,7 +129,7 @@
             this.btn4.TabIndex = 5;
             this.btn4.Tag = "?";
             this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn5
             // 
@@ -142,7 +142,7 @@
             this.btn5.TabIndex = 5;
             this.btn5.Tag = "?";
             this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn6
             // 
@@ -155,7 +155,7 @@
             this.btn6.TabIndex = 5;
             this.btn6.Tag = "?";
             this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn3
             // 
@@ -168,7 +168,7 @@
             this.btn3.TabIndex = 5;
             this.btn3.Tag = "?";
             this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn2
             // 
@@ -181,7 +181,7 @@
             this.btn2.TabIndex = 5;
             this.btn2.Tag = "?";
             this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.Button_Click);
             // 
             // btn1
             // 
@@ -194,7 +194,7 @@
             this.btn1.TabIndex = 5;
             this.btn1.Tag = "?";
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.Button_Click);
             // 
             // btnResetGame
             // 
@@ -259,7 +259,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1450, 840);
+            this.ClientSize = new System.Drawing.Size(1408, 840);
             this.Controls.Add(this.lblWinner);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblTurn);
