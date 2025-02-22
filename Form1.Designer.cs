@@ -205,6 +205,7 @@
             this.btnResetGame.TabIndex = 2;
             this.btnResetGame.Text = "Reset Game";
             this.btnResetGame.UseVisualStyleBackColor = true;
+            this.btnResetGame.Click += new System.EventHandler(this.btnResetGame_Click);
             // 
             // label2
             // 
